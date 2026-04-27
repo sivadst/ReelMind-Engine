@@ -59,3 +59,34 @@ It analyzes:
 ---
 
 ## 🧪 Architecture
+CineAI-X/
+│
+├── app.py # Main UI & orchestration
+├── engine.py # Hybrid recommendation engine
+├── mood_engine.py # Mood-based filtering logic
+├── profile_engine.py # User behavior modeling
+├── style.css # Custom UI styling
+├── data/ # Movie dataset
+└── user/ # Profile persistence
+
+
+---
+
+## 🚀 How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+🧠 Core Idea
+
+Most recommendation systems optimize for similarity.
+
+CineAI-X goes further:
+
+It balances relevance, diversity, intent, and timing — mimicking how humans actually choose movies.
+
+🔮 Future Scope
+🌐 Cloud deployment (public access)
+🧬 Deep learning-based embeddings
+🎯 Personalized ranking models
+🎥 OTT-style recommendation UI
